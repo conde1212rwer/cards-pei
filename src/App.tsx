@@ -5,17 +5,17 @@ function App() {
   const profilesData = [
     {
       id: 1,
-      imageUrl: "https://i.pinimg.com/1200x/40/42/2f/40422f207beffab521842104974ad15b.jpg",
-      name: "Gabriel Lopes",
-      title: "Curso: Ciência da Computação",
-      github: "https://github.com/GabrielLopes930"
-    },
-    {
-      id: 2,
       imageUrl: "https://i.pinimg.com/1200x/2c/14/3e/2c143e4be2060658c6c79e3cfa02e4e2.jpg",
       name: "Magno Vinicius",
       title: "Curso: Ciência da Computação",
       github: "https://github.com/conde1212rwer"
+    },
+    {
+      id: 2,
+      imageUrl: "https://i.pinimg.com/1200x/40/42/2f/40422f207beffab521842104974ad15b.jpg",
+      name: "Gabriel Lopes",
+      title: "Curso: Ciência da Computação",
+      github: "https://github.com/GabrielLopes930"
     },
     {
       id: 3,
