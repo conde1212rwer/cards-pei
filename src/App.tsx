@@ -22,7 +22,7 @@ function App() {
       imageUrl: "https://i.pinimg.com/736x/f0/0d/28/f00d282e727bbf3cc053cf3a6d730fc2.jpg",
       name: "Matheus Jose",
       title: "Curso: Ciência da Computação",
-      github: "https://github.com/"
+      github: "https://github.com/MatheusTony"
     }
   ];
 
