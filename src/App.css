@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #1f1f1f; /* fundo da página */
+  color: #fff;
+  text-align: center;
+}
+
+.profiles-container {
+  display: flex;
+  flex-direction: column; /* cards em coluna */
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid #2ecc71; /* borda verde esmeralda */
+  border-radius: 15px;
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  background: linear-gradient(145deg, #0d1f17, #14532d); /* degradê verde escuro elegante */
+  color: #e6ffe6; /* texto verde claro */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.7);
+}
+
+.card-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #2ecc71; /* borda da foto combinando */
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: #2ecc71; /* botão verde */
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.github-link:hover {
+  background-color: #27ae60; /* verde mais escuro no hover */
+}
